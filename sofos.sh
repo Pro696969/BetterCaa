@@ -7,7 +7,7 @@ SSID_2="PESU-BOYS HOSTELS"
 # SSID_TRIAL="ProK20"
 CONNECTED_SSID=$(iwgetid -r)
 
-# echo $CONNECTED_SSID
+echo $CONNECTED_SSID
 if [[ "$CONNECTED_SSID" == "$SSID_1" || "$CONNECTED_SSID" == "$SSID_2" ]]; then
   echo pissu network detected
   sofo -d
