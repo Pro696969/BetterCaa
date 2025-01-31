@@ -12,6 +12,7 @@ A better way to connect to pesu network :)
 
 ```bash
 git clone git@github.com:Pro696969/BetterCaa.git
+cd BetterCaa
 chmod +x sofos.sh
 ```
 
