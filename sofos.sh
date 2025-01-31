@@ -10,5 +10,5 @@ CONNECTED_SSID=$(iwgetid -r)
 echo $CONNECTED_SSID
 if [[ "$CONNECTED_SSID" == "$SSID_1" || "$CONNECTED_SSID" == "$SSID_2" ]]; then
   echo pissu network detected
-  caa -d
+  sofo -d
 fi

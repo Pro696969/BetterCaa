@@ -1,0 +1,11 @@
+[Unit]
+Description=Connect to pissu network on startup
+After=network.target
+
+[Service]
+User=pro696969
+Environment="HOME=/home/pro696969"
+ExecStart=sofo
+
+[Install]
+WantedBy=multi-user.target

@@ -22,3 +22,11 @@ chmod +x sofos.sh
 
 - This is still under development and is quite buggy 
     - SPOILER : _might or might not continue fixing the edge cases, still faster than browser login_.
+
+### Goals :
+- Run this at system startup without making use of startup application
+
+- 💡 Run it as a systemd service
+    - add a infinite while loop and poll at regular intervals to check for network change detection
+- 💡 Run it each time user logs in, as the caa disconnects everytime screen gets locked or user logs out
+ 
