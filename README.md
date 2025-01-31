@@ -1,0 +1,21 @@
+## Better caa
+
+A better way to connect to pesu network :)
+
+### Setup :
+
+- Download and setup the caa client provied by sofos you can find it [here](https://www.google.com).
+
+- setup can be found [here](https://docs.sophos.com/nsg/sophos-firewall/19.5/Help/en-us/webhelp/onlinehelp/UserPortalHelp/DownloadClient/index.html#authentication-clients-and-server-cas-for-computers).
+
+### Usage :
+
+```bash
+git clone <>
+chmod +x sofos.sh
+```
+
+### Note :
+- This is setup to work with EC Campus, you can modify the `sofos.sh` and change the `$SSID_1` as per your SSID.
+
+- Furthur add this to your startup applications and run on startup conveniently.
