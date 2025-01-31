@@ -11,7 +11,7 @@ A better way to connect to pesu network :)
 ### Usage :
 
 ```bash
-git clone <>
+git clone git@github.com:Pro696969/BetterCaa.git
 chmod +x sofos.sh
 ```
 
@@ -19,3 +19,6 @@ chmod +x sofos.sh
 - This is setup to work with EC Campus, you can modify the `sofos.sh` and change the `$SSID_1` as per your SSID.
 
 - Furthur add this to your startup applications and run on startup conveniently.
+
+- This is still under development and is quite buggy 
+    - SPOILER : _might or might not continue fixing the edge cases, still faster than browser login_.
